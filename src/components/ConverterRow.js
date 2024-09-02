@@ -12,6 +12,12 @@ const ConverterRow = (props) => {
     }, [props.currency, props.amount]);
 
     const inputValueChangeHandler = (event) => {
+        const isNotValid = isNaN(event.target.value);
+        if (isNotValid) {
+            alert('Value is not valid!');
+            return;
+        }
+
         setAmountValue(event.target.value);
         props.onAmountChange(props.id, event.target.value);
     }
