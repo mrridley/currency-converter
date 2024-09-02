@@ -1,3 +1,9 @@
+body {
+  background: #B0E0E6;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +11,15 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.content, header {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 20px 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -1,0 +1,26 @@
+header {
+    background: #34495E;
+    padding: 20px;
+}
+
+a {
+    color: #BDC3C7;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+a.active {
+    color: #fff;
+}
+
+a+a {
+    margin-left: 10px;
+}
+
+nav {
+    display: flex;
+}
+
+nav select {
+    margin-left: auto;
+}
